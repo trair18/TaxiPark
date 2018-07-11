@@ -1,4 +1,6 @@
-public class Car {
+package model;
+
+public class Car{
     protected int id;
     protected String name;
     protected double fuelConsumption;
@@ -42,6 +44,7 @@ public class Car {
         this.fuelConsumption = fuelConsumption;
         this.speed = speed;
     }
+
 
     @Override
     public String toString() {

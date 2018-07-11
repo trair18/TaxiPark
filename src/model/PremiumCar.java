@@ -1,4 +1,6 @@
-public class PremiumCar extends Car{
+package model;
+
+public class PremiumCar extends Car {
     private boolean wifi;
     private boolean monitor;
 

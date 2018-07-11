@@ -1,4 +1,6 @@
-public class MiniBus extends Car{
+package model;
+
+public class MiniBus extends Car {
     private String function;
 
     public MiniBus(int id, String name, double fuelConsumption, int speed, String type) {
