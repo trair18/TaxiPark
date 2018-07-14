@@ -1,6 +1,6 @@
-package service;
+package com.gmail.trair8.service;
 
-import model.Car;
+import com.gmail.trair8.model.Car;
 
 import java.util.Comparator;
 

@@ -1,15 +1,15 @@
-package service;
+package com.gmail.trair8.repository;
 
-import model.Car;
-import model.MiniBus;
-import model.PremiumCar;
+import com.gmail.trair8.model.Car;
+import com.gmail.trair8.model.MiniBus;
+import com.gmail.trair8.model.PremiumCar;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class CarRepository {
+public class TaxiParkRepository {
     public ArrayList<Car> findAll(){
         ArrayList<Car> cars = new ArrayList<Car>();
         try {
@@ -30,16 +30,17 @@ public class CarRepository {
         String name = s[2];
         double fuelConsumption = Double.valueOf(s[3]);
         int speed = Integer.valueOf(s[4]);
+        int price = Integer.valueOf(s[5]);
         switch (type){
             case "car":
-                return new Car(id, name, fuelConsumption, speed);
+                return new Car(id, name, fuelConsumption, speed, price);
             case "premium car":
-                boolean wifi = Boolean.valueOf(s[5]);
-                boolean monitor = Boolean.valueOf(s[6]);
-                return new PremiumCar(id, name, fuelConsumption, speed, wifi, monitor);
+                boolean wifi = Boolean.valueOf(s[6]);
+                boolean monitor = Boolean.valueOf(s[7]);
+                return new PremiumCar(id, name, fuelConsumption, speed, price, wifi, monitor);
             case "mini bus":
-                String function = s[5];
-                return new MiniBus(id, name, fuelConsumption, speed, function);
+                String function = s[6];
+                return new MiniBus(id, name, fuelConsumption, speed, price, function);
         }
         return null;
     }

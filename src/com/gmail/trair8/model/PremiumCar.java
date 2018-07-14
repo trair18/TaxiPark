@@ -1,11 +1,11 @@
-package model;
+package com.gmail.trair8.model;
 
 public class PremiumCar extends Car {
     private boolean wifi;
     private boolean monitor;
 
-    public PremiumCar(int id, String name, double fuelConsumption, int speed, boolean wifi, boolean monitor) {
-        super(id, name, fuelConsumption, speed);
+    public PremiumCar(int id, String name, double fuelConsumption, int speed, int price, boolean wifi, boolean monitor) {
+        super(id, name, fuelConsumption, speed, price);
         this.wifi = wifi;
         this.monitor = monitor;
     }
@@ -35,6 +35,7 @@ public class PremiumCar extends Car {
                 ", name='" + name + '\'' +
                 ", fuelConsumption=" + fuelConsumption +
                 ", speed=" + speed +
+                ", price=" + price +
                 '}';
     }
 }

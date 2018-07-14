@@ -1,12 +1,11 @@
-package service;
+package com.gmail.trair8.service;
 
-import model.Car;
-import model.TaxiPark;
+import com.gmail.trair8.model.Car;
+import com.gmail.trair8.model.TaxiPark;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
-public class CarService {
+public class TaxiParkService {
     public void sort(TaxiPark taxiPark){
         CarComparator carComparator = new CarComparator();
         taxiPark.getCars().sort(carComparator);
@@ -26,5 +25,13 @@ public class CarService {
             }
         }
         return searchCars;
+    }
+
+    public int cost(TaxiPark taxiPark){
+        int sum = 0;
+        for (Car car: taxiPark.getCars()) {
+            sum += car.getPrice();
+        }
+        return sum;
     }
 }

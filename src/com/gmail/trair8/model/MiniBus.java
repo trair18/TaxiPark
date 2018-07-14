@@ -1,10 +1,10 @@
-package model;
+package com.gmail.trair8.model;
 
 public class MiniBus extends Car {
     private String function;
 
-    public MiniBus(int id, String name, double fuelConsumption, int speed, String type) {
-        super(id, name, fuelConsumption, speed);
+    public MiniBus(int id, String name, double fuelConsumption, int speed, int price, String type) {
+        super(id, name, fuelConsumption, speed, price);
         this.function = type;
     }
 
@@ -24,6 +24,7 @@ public class MiniBus extends Car {
                 ", name='" + name + '\'' +
                 ", fuelConsumption=" + fuelConsumption +
                 ", speed=" + speed +
+                ", price=" + price +
                 '}';
     }
 }
