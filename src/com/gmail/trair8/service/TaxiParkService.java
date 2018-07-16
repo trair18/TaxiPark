@@ -6,15 +6,10 @@ import com.gmail.trair8.model.TaxiPark;
 import java.util.ArrayList;
 
 public class TaxiParkService {
+
     public void sort(TaxiPark taxiPark){
         CarComparator carComparator = new CarComparator();
         taxiPark.getCars().sort(carComparator);
-    }
-
-    public void print(TaxiPark taxiPark){
-        for (Car car: taxiPark.getCars()) {
-            System.out.println(car);
-        }
     }
 
     public ArrayList<Car> search(int a, int b, TaxiPark taxiPark){
@@ -27,7 +22,7 @@ public class TaxiParkService {
         return searchCars;
     }
 
-    public int cost(TaxiPark taxiPark){
+    public int getCost(TaxiPark taxiPark){
         int sum = 0;
         for (Car car: taxiPark.getCars()) {
             sum += car.getPrice();

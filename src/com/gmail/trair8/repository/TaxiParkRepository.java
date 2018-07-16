@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TaxiParkRepository {
+
     public ArrayList<Car> findAll(){
         ArrayList<Car> cars = new ArrayList<Car>();
         try {

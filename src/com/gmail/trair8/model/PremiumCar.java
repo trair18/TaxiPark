@@ -1,6 +1,9 @@
 package com.gmail.trair8.model;
 
+import java.util.Objects;
+
 public class PremiumCar extends Car {
+
     private boolean wifi;
     private boolean monitor;
 
@@ -24,6 +27,22 @@ public class PremiumCar extends Car {
 
     public void setMonitor(boolean monitor) {
         this.monitor = monitor;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        PremiumCar that = (PremiumCar) o;
+        return wifi == that.wifi &&
+                monitor == that.monitor;
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(super.hashCode(), wifi, monitor);
     }
 
     @Override

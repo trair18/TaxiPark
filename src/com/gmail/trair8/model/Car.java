@@ -1,6 +1,9 @@
 package com.gmail.trair8.model;
 
+import java.util.Objects;
+
 public class Car{
+
     protected int id;
     protected String name;
     protected double fuelConsumption;
@@ -53,6 +56,24 @@ public class Car{
         this.fuelConsumption = fuelConsumption;
         this.speed = speed;
         this.price = price;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Car car = (Car) o;
+        return id == car.id &&
+                Double.compare(car.fuelConsumption, fuelConsumption) == 0 &&
+                speed == car.speed &&
+                price == car.price &&
+                Objects.equals(name, car.name);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(id, name, fuelConsumption, speed, price);
     }
 
     @Override

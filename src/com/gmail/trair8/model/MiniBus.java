@@ -1,6 +1,9 @@
 package com.gmail.trair8.model;
 
+import java.util.Objects;
+
 public class MiniBus extends Car {
+
     private String function;
 
     public MiniBus(int id, String name, double fuelConsumption, int speed, int price, String type) {
@@ -14,6 +17,21 @@ public class MiniBus extends Car {
 
     public void setFunction(String function) {
         this.function = function;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        MiniBus miniBus = (MiniBus) o;
+        return Objects.equals(function, miniBus.function);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(super.hashCode(), function);
     }
 
     @Override
