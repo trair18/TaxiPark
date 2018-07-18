@@ -9,13 +9,7 @@ public class MiniBusCreator extends AbstractCreator{
     public Car create(String[] s) {
         MiniBus miniBus = new MiniBus();
         initCar(miniBus, s);
-        if (s[6].equals("passenger")){
-            miniBus.setFunction(MiniBusType.PASSENGER);
-        }else if(s[6].equals("cargo")){
-            miniBus.setFunction(MiniBusType.CARGO);
-        } else {
-            miniBus.setFunction(MiniBusType.UNIVERSAL);
-        }
+        miniBus.setFunction(MiniBusType.valueOf(s[6]));
         return miniBus;
     }
 }
