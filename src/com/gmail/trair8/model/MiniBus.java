@@ -4,9 +4,7 @@ public class MiniBus extends Car {
 
     private MiniBusType function;
 
-    public MiniBus() {
-    }
-
+    public MiniBus() { }
 
     public MiniBusType getFunction() {
         return function;
@@ -29,7 +27,6 @@ public class MiniBus extends Car {
 
     @Override
     public int hashCode() {
-
         return super.hashCode() + (function.equals(MiniBusType.PASSENGER)? 2: function.equals(MiniBusType.CARGO)? 1 : 0);
     }
 

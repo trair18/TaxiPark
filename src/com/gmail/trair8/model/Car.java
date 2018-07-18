@@ -7,6 +7,7 @@ public class Car{
     protected double fuelConsumption;
     protected int speed;
     protected int price;
+    private CarType type;
 
     public int getId() {
         return id;
@@ -48,8 +49,15 @@ public class Car{
         this.price = price;
     }
 
-    public Car() {}
+    public CarType getType() {
+        return type;
+    }
 
+    public void setType(CarType type) {
+        this.type = type;
+    }
+
+    public Car() {}
 
     @Override
     public boolean equals(Object o) {
@@ -62,13 +70,16 @@ public class Car{
         if (fuelConsumption != car.fuelConsumption) return false;
         if (speed != car.speed) return false;
         if (price != car.price) return false;
+        if (type != car.type) return false;
         return true;
     }
 
     @Override
     public int hashCode() {
+        int hashCodeType;
 
-        return (int) (id + (null != name ? 0: name.hashCode()) + fuelConsumption + speed * 31 + price);
+        return (int) (id + (null != name ? 0: name.hashCode()) + fuelConsumption +
+                speed * 31 + price + (type.equals(CarType.PREMIUM) ? 1 : 0));
     }
 
     @Override
@@ -79,6 +90,7 @@ public class Car{
                 ", fuelConsumption=" + fuelConsumption +
                 ", speed=" + speed +
                 ", price=" + price +
+                ", type=" + type +
                 '}';
     }
 }

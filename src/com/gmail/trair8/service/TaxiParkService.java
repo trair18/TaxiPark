@@ -16,8 +16,6 @@ public class TaxiParkService {
                return o1.getFuelConsumption() > o2.getFuelConsumption()? 1 : o1.getFuelConsumption() == o2.getFuelConsumption() ? 0 : -1;
             }
         });
-
-
     }
 
     public static ArrayList<Car> search(int a, int b, TaxiPark taxiPark){

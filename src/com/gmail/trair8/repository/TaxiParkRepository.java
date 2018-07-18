@@ -16,7 +16,6 @@ public class TaxiParkRepository {
 
         List<Car> cars = new ArrayList<Car>();
         FactoryMethod factoryMethod = new FactoryMethod();
-
         try {
             FileInputStream fileInputStream = new FileInputStream(new File("cars.txt"));
             byte[] a = new byte[fileInputStream.available()];
