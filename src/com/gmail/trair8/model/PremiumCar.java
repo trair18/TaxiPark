@@ -1,17 +1,11 @@
 package com.gmail.trair8.model;
 
-import java.util.Objects;
-
 public class PremiumCar extends Car {
 
     private boolean wifi;
     private boolean monitor;
 
-    public PremiumCar(int id, String name, double fuelConsumption, int speed, int price, boolean wifi, boolean monitor) {
-        super(id, name, fuelConsumption, speed, price);
-        this.wifi = wifi;
-        this.monitor = monitor;
-    }
+    public PremiumCar(){}
 
     public boolean isWifi() {
         return wifi;
@@ -32,23 +26,25 @@ public class PremiumCar extends Car {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (o == null) return false;
+        if (getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        PremiumCar that = (PremiumCar) o;
-        return wifi == that.wifi &&
-                monitor == that.monitor;
+        PremiumCar premiumCar = (PremiumCar) o;
+        if (wifi != premiumCar.wifi) return false;
+        if (monitor != premiumCar.monitor) return false;
+        return true;
     }
 
     @Override
     public int hashCode() {
 
-        return Objects.hash(super.hashCode(), wifi, monitor);
+        return super.hashCode() + (wifi ? 3 : 1) + (monitor ? 4 : 2);
     }
 
     @Override
     public String toString() {
-        return "PremiumCar{" +
-                "wifi=" + wifi +
+        return this.getClass().getName() +
+                "{wifi=" + wifi +
                 ", monitor=" + monitor +
                 ", id=" + id +
                 ", name='" + name + '\'' +
@@ -57,4 +53,5 @@ public class PremiumCar extends Car {
                 ", price=" + price +
                 '}';
     }
+
 }

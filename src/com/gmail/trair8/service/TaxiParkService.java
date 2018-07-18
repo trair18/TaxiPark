@@ -4,15 +4,23 @@ import com.gmail.trair8.model.Car;
 import com.gmail.trair8.model.TaxiPark;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+
 
 public class TaxiParkService {
 
-    public void sort(TaxiPark taxiPark){
-        CarComparator carComparator = new CarComparator();
-        taxiPark.getCars().sort(carComparator);
+    public static void sort(TaxiPark taxiPark){
+        taxiPark.getCars().sort(new Comparator<Car>() {
+            @Override
+            public int compare(Car o1, Car o2) {
+               return o1.getFuelConsumption() > o2.getFuelConsumption()? 1 : o1.getFuelConsumption() == o2.getFuelConsumption() ? 0 : -1;
+            }
+        });
+
+
     }
 
-    public ArrayList<Car> search(int a, int b, TaxiPark taxiPark){
+    public static ArrayList<Car> search(int a, int b, TaxiPark taxiPark){
         ArrayList<Car> searchCars = new ArrayList<Car>();
         for (Car car: taxiPark.getCars()) {
             if (car.getSpeed() >= a && car.getSpeed() <= b){
@@ -22,7 +30,7 @@ public class TaxiParkService {
         return searchCars;
     }
 
-    public int getCost(TaxiPark taxiPark){
+    public static int getCost(TaxiPark taxiPark){
         int sum = 0;
         for (Car car: taxiPark.getCars()) {
             sum += car.getPrice();

@@ -1,18 +1,18 @@
-package com.gmail.trair8.view;
+package com.gmail.trair8.runner;
 
 import com.gmail.trair8.model.Car;
 import com.gmail.trair8.model.TaxiPark;
 import com.gmail.trair8.repository.TaxiParkRepository;
 import com.gmail.trair8.service.TaxiParkService;
-
-import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Console {
-
-    public static void console(TaxiParkService taxiParkService, TaxiPark taxiPark){
+public class Runner {
+    
+    public static void main(String[] args) {
+        TaxiPark taxiPark = new TaxiPark();
         TaxiParkRepository taxiParkRepository = new TaxiParkRepository();
         taxiPark.setCars(taxiParkRepository.findAll());
 
@@ -21,7 +21,7 @@ public class Console {
 
         while (!(s = scanner.nextLine()).equals("exit")){
             if(s.equals("sort()")){
-                taxiParkService.sort(taxiPark);
+                TaxiParkService.sort(taxiPark);
                 print(taxiPark.getCars());
             } else if(s.equals("print()")){
                 print(taxiPark.getCars());
@@ -32,9 +32,9 @@ public class Console {
                 int i = Integer.parseInt(m.group());
                 m.find();
                 int j = Integer.parseInt(m.group());
-                print(taxiParkService.search(i, j, taxiPark));
+                print(TaxiParkService.search(i, j, taxiPark));
             }else if(s.equals("getCost()")){
-                System.out.println(taxiParkService.getCost(taxiPark));
+                System.out.println(TaxiParkService.getCost(taxiPark));
             } else {
                 System.out.println("try again");
             }
@@ -42,7 +42,7 @@ public class Console {
         scanner.close();
     }
 
-    private static void print(ArrayList<Car> cars){
+    private static void print(List<Car> cars){
         for (Car car: cars) {
             System.out.println(car);
         }

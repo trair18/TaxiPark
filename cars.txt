@@ -1,6 +1,6 @@
 mini bus, 1, mersedes, 15.1, 150, 3000, passenger
-car, 3, audi, 10.2, 180, 2000
 premium car, 2, bmw, 15.0, 250, 6000, false, true
+car, 2, bmw, 15.0, 250, 6000
 mini bus, 4, mersedes, 16.1, 180, 3500, cargo
 premium car, 5, bmw, 15.0, 250, 6000, true, false
 premium car, 6, bmw, 19.0, 280, 8000, true, true

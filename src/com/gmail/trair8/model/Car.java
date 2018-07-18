@@ -1,7 +1,5 @@
 package com.gmail.trair8.model;
 
-import java.util.Objects;
-
 public class Car{
 
     protected int id;
@@ -50,36 +48,33 @@ public class Car{
         this.price = price;
     }
 
-    public Car(int id, String name, double fuelConsumption, int speed, int price) {
-        this.id = id;
-        this.name = name;
-        this.fuelConsumption = fuelConsumption;
-        this.speed = speed;
-        this.price = price;
-    }
+    public Car() {}
+
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (o == null) return false;
+        if(getClass() != o.getClass()) return false;
         Car car = (Car) o;
-        return id == car.id &&
-                Double.compare(car.fuelConsumption, fuelConsumption) == 0 &&
-                speed == car.speed &&
-                price == car.price &&
-                Objects.equals(name, car.name);
+        if (id != car.id) return false;
+        if (!name.equals(car.name)) return false;
+        if (fuelConsumption != car.fuelConsumption) return false;
+        if (speed != car.speed) return false;
+        if (price != car.price) return false;
+        return true;
     }
 
     @Override
     public int hashCode() {
 
-        return Objects.hash(id, name, fuelConsumption, speed, price);
+        return (int) (id + (null != name ? 0: name.hashCode()) + fuelConsumption + speed * 31 + price);
     }
 
     @Override
     public String toString() {
-        return "Car{" +
-                "id=" + id +
+        return  this.getClass().getName()+
+                "{id=" + id +
                 ", name='" + name + '\'' +
                 ", fuelConsumption=" + fuelConsumption +
                 ", speed=" + speed +
@@ -87,3 +82,4 @@ public class Car{
                 '}';
     }
 }
+
