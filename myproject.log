@@ -1,0 +1,79 @@
+22:54:53,226  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+22:54:53,336  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+22:54:53,401  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+22:54:53,401  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+22:54:53,401  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+22:56:31,712 DEBUG main TaxiParkService:getCost:38 - sum = 3000
+22:56:31,712 DEBUG main TaxiParkService:getCost:38 - sum = 9000
+22:56:31,712 DEBUG main TaxiParkService:getCost:38 - sum = 12500
+22:56:31,712 DEBUG main TaxiParkService:getCost:38 - sum = 18500
+22:56:31,712 DEBUG main TaxiParkService:getCost:38 - sum = 22000
+22:58:09,578  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+22:58:09,640  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+22:58:09,675  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+22:58:09,676  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+22:58:09,676  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+22:58:15,799 DEBUG main TaxiParkService:getCost:38 - sum = 3000
+22:58:15,799 DEBUG main TaxiParkService:getCost:38 - sum = 9000
+22:58:15,799 DEBUG main TaxiParkService:getCost:38 - sum = 12500
+22:58:15,799 DEBUG main TaxiParkService:getCost:38 - sum = 18500
+22:58:15,799 DEBUG main TaxiParkService:getCost:38 - sum = 22000
+22:58:15,799  INFO main Runner:main:47 - 22000
+22:58:22,932  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+22:58:22,932  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+22:58:22,932  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+22:58:22,932  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+22:58:22,932  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:02:21,848 ERROR main TaxiParkRepository:findAll:35 - File not Found
+java.io.FileNotFoundException: cas.txt (Не удается найти указанный файл)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:220)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:23)
+	at com.gmail.trair8.runner.Runner.main(Runner.java:27)
+23:03:41,572 DEBUG main TaxiParkRepository:findAll:27 - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+23:03:43,782  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+23:03:43,902  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+23:03:43,922  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:03:43,937  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+23:03:43,937  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:05:47,807 DEBUG main TaxiParkRepository:findAll:27 - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+23:05:49,666  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+23:05:49,713  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+23:05:49,744  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:05:49,744  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+23:05:49,744  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:07:59,257 DEBUG main TaxiParkRepository:findAll:27 - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+23:08:01,356  INFO main Runner:main:49 - try again
+23:08:04,203  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+23:08:04,261  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+23:08:04,289  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:08:04,289  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+23:08:04,289  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:10:49,953 DEBUG main TaxiParkRepository:findAll:27 - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+23:10:53,322  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+23:10:53,375  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+23:10:53,405  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:10:53,406  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+23:10:53,406  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:11:00,743  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+23:11:00,743  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+23:11:00,744  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+23:11:00,744  INFO main Runner:print:58 - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+23:11:00,744  INFO main Runner:print:58 - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}

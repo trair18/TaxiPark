@@ -2,12 +2,15 @@ package com.gmail.trair8.service;
 
 import com.gmail.trair8.model.Car;
 import com.gmail.trair8.model.TaxiPark;
+import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 
 
 public class TaxiParkService {
+
+    private static final Logger logger = Logger.getLogger(TaxiParkService.class);
 
     public static void sort(TaxiPark taxiPark){
         taxiPark.getCars().sort(new Comparator<Car>() {
@@ -32,6 +35,7 @@ public class TaxiParkService {
         int sum = 0;
         for (Car car: taxiPark.getCars()) {
             sum += car.getPrice();
+            logger.debug("sum = " + sum);
         }
         return sum;
     }

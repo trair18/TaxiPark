@@ -4,14 +4,24 @@ import com.gmail.trair8.model.Car;
 import com.gmail.trair8.model.TaxiPark;
 import com.gmail.trair8.repository.TaxiParkRepository;
 import com.gmail.trair8.service.TaxiParkService;
+import org.apache.log4j.*;
+
 import java.util.List;
 import java.util.Scanner;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Runner {
-    
+
+    private static final Logger logger = Logger.getLogger(Runner.class);
+
+
+
+
     public static void main(String[] args) {
+
+        logger.setLevel(Level.INFO);
         TaxiPark taxiPark = new TaxiPark();
         TaxiParkRepository taxiParkRepository = new TaxiParkRepository();
         taxiPark.setCars(taxiParkRepository.findAll());
@@ -34,9 +44,9 @@ public class Runner {
                 int j = Integer.parseInt(m.group());
                 print(TaxiParkService.search(i, j, taxiPark));
             }else if(s.equals("getCost()")){
-                System.out.println(TaxiParkService.getCost(taxiPark));
+                logger.info(TaxiParkService.getCost(taxiPark));
             } else {
-                System.out.println("try again");
+                logger.info("try again");
             }
         }
         scanner.close();
@@ -44,7 +54,8 @@ public class Runner {
 
     private static void print(List<Car> cars){
         for (Car car: cars) {
-            System.out.println(car);
+            //System.out.println(car);
+            logger.info(car);
         }
     }
 }
