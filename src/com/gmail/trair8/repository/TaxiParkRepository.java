@@ -2,7 +2,8 @@ package com.gmail.trair8.repository;
 
 import com.gmail.trair8.factory.FactoryMethod;
 import com.gmail.trair8.model.Car;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,10 +12,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class TaxiParkRepository {
 
-    private static final Logger logger = Logger.getLogger(TaxiParkRepository.class);
+    private static final Logger logger = LogManager.getLogger(TaxiParkRepository.class);
 
     public List<Car> findAll() {
         List<Car> cars = new ArrayList<Car>();

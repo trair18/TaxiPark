@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+        <File name="FILE" fileName="logs/debug.log">
+            <PatternLayout pattern="%d{ISO8601} [%-5p] (%F:%L) - %m%n"/>
+        </File>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{ABSOLUTE} [%-5p] (%F:%L) - %m%n"/>
+        </Console>
+    </appenders>
+    <loggers>
+        <Logger name="com.gmail.trair8.runner" level="info">
+            <appender-ref ref="STDOUT"/>
+        </Logger>
+        <root level="debug">
+            <appender-ref ref="FILE"/>
+        </root>
+    </loggers>
+
+</configuration>

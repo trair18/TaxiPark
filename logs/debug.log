@@ -1,0 +1,77 @@
+2018-07-22T22:12:49,600 [DEBUG] (TaxiParkRepository.java:28) - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+2018-07-22T22:12:57,449 [INFO ] (Runner.java:54) - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+2018-07-22T22:12:57,465 [INFO ] (Runner.java:54) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+2018-07-22T22:12:57,480 [INFO ] (Runner.java:54) - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:12:57,480 [INFO ] (Runner.java:54) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+2018-07-22T22:12:57,480 [INFO ] (Runner.java:54) - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:16:01,502 [DEBUG] (TaxiParkRepository.java:28) - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+2018-07-22T22:16:11,615 [INFO ] (Runner.java:54) - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+2018-07-22T22:16:11,630 [INFO ] (Runner.java:54) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+2018-07-22T22:16:11,630 [INFO ] (Runner.java:54) - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:16:11,630 [INFO ] (Runner.java:54) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+2018-07-22T22:16:11,630 [INFO ] (Runner.java:54) - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:16:52,825 [DEBUG] (TaxiParkRepository.java:28) - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+2018-07-22T22:16:56,852 [INFO ] (Runner.java:54) - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+2018-07-22T22:16:56,867 [INFO ] (Runner.java:54) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+2018-07-22T22:16:56,867 [INFO ] (Runner.java:54) - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:16:56,867 [INFO ] (Runner.java:54) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+2018-07-22T22:16:56,867 [INFO ] (Runner.java:54) - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:21:27,058 [DEBUG] (TaxiParkRepository.java:28) - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+2018-07-22T22:21:40,185 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+2018-07-22T22:21:40,201 [INFO ] (Runner.java:55) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+2018-07-22T22:21:40,216 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:21:40,216 [INFO ] (Runner.java:55) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+2018-07-22T22:21:40,216 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:23:31,434 [DEBUG] (TaxiParkRepository.java:28) - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+2018-07-22T22:23:32,546 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+2018-07-22T22:23:32,577 [INFO ] (Runner.java:55) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+2018-07-22T22:23:32,577 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:23:32,577 [INFO ] (Runner.java:55) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+2018-07-22T22:23:32,577 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:23:41,184 [DEBUG] (TaxiParkService.java:39) - sum = 3000
+2018-07-22T22:23:41,184 [DEBUG] (TaxiParkService.java:39) - sum = 9000
+2018-07-22T22:23:41,184 [DEBUG] (TaxiParkService.java:39) - sum = 12500
+2018-07-22T22:23:41,185 [DEBUG] (TaxiParkService.java:39) - sum = 18500
+2018-07-22T22:23:41,186 [DEBUG] (TaxiParkService.java:39) - sum = 22000
+2018-07-22T22:23:41,187 [INFO ] (Runner.java:45) - 22000
+2018-07-22T22:24:31,896 [DEBUG] (TaxiParkRepository.java:28) - mini bus, 1, mersedes, 15.1, 150, 3000, PASSENGER
+car, 2, bmw, 15.0, 250, 6000, PREMIUM
+mini bus, 4, mersedes, 16.1, 180, 3500, CARGO
+car, 2, bmw, 15.0, 250, 6000, STANDARD
+mini bus, 7, mersedes, 16.1, 180, 3500, UNIVERSAL
+2018-07-22T22:24:34,263 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+2018-07-22T22:24:34,294 [INFO ] (Runner.java:55) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+2018-07-22T22:24:34,294 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:24:34,294 [INFO ] (Runner.java:55) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+2018-07-22T22:24:34,294 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:24:55,817 [DEBUG] (TaxiParkService.java:39) - sum = 3000
+2018-07-22T22:24:55,832 [DEBUG] (TaxiParkService.java:39) - sum = 9000
+2018-07-22T22:24:55,832 [DEBUG] (TaxiParkService.java:39) - sum = 12500
+2018-07-22T22:24:55,832 [DEBUG] (TaxiParkService.java:39) - sum = 18500
+2018-07-22T22:24:55,832 [DEBUG] (TaxiParkService.java:39) - sum = 22000
+2018-07-22T22:24:55,832 [INFO ] (Runner.java:45) - 22000
+2018-07-22T22:25:15,298 [INFO ] (Runner.java:55) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=PREMIUM}
+2018-07-22T22:25:15,298 [INFO ] (Runner.java:55) - com.gmail.trair8.model.Car{id=2, name='bmw', fuelConsumption=15.0, speed=250, price=6000, type=STANDARD}
+2018-07-22T22:25:15,298 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='PASSENGER', id=1, name='mersedes', fuelConsumption=15.1, speed=150, price=3000}
+2018-07-22T22:25:15,298 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='CARGO', id=4, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}
+2018-07-22T22:25:15,298 [INFO ] (Runner.java:55) - com.gmail.trair8.model.MiniBus{function='UNIVERSAL', id=7, name='mersedes', fuelConsumption=16.1, speed=180, price=3500}

@@ -49,9 +49,7 @@ public class Car{
         this.price = price;
     }
 
-    public CarType getType() {
-        return type;
-    }
+    public CarType getType() { return type; }
 
     public void setType(CarType type) {
         this.type = type;
@@ -76,8 +74,6 @@ public class Car{
 
     @Override
     public int hashCode() {
-        int hashCodeType;
-
         return (int) (id + (null != name ? 0: name.hashCode()) + fuelConsumption +
                 speed * 31 + price + (type.equals(CarType.PREMIUM) ? 1 : 0));
     }

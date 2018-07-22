@@ -2,7 +2,8 @@ package com.gmail.trair8.service;
 
 import com.gmail.trair8.model.Car;
 import com.gmail.trair8.model.TaxiPark;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -10,8 +11,13 @@ import java.util.Comparator;
 
 public class TaxiParkService {
 
-    private static final Logger logger = Logger.getLogger(TaxiParkService.class);
+    private static final Logger logger = LogManager.getLogger(TaxiParkService.class);
 
+    /**
+     * Sort park cars by fuel consumption
+     * @param taxiPark
+     * actual taxi park
+     */
     public static void sort(TaxiPark taxiPark){
         taxiPark.getCars().sort(new Comparator<Car>() {
             @Override
@@ -21,16 +27,34 @@ public class TaxiParkService {
         });
     }
 
-    public static ArrayList<Car> search(int a, int b, TaxiPark taxiPark){
+    /**
+     *Search car by speed range
+     * @param start
+     * start of range
+     * @param end
+     * end of range
+     * @param taxiPark
+     * actual taxi park
+     * @return
+     * list of searched cars
+     */
+    public static ArrayList<Car> search(int start, int end, TaxiPark taxiPark){
         ArrayList<Car> searchCars = new ArrayList<Car>();
         for (Car car: taxiPark.getCars()) {
-            if (car.getSpeed() >= a && car.getSpeed() <= b){
+            if (car.getSpeed() >= start && car.getSpeed() <= end){
                 searchCars.add(car);
             }
         }
         return searchCars;
     }
 
+    /**
+     * calculate sum of park cars
+     * @param taxiPark
+     * actual taxi park
+     * @return
+     * sum of park cars
+     */
     public static int getCost(TaxiPark taxiPark){
         int sum = 0;
         for (Car car: taxiPark.getCars()) {

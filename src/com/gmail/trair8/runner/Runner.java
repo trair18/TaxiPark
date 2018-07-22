@@ -4,7 +4,8 @@ import com.gmail.trair8.model.Car;
 import com.gmail.trair8.model.TaxiPark;
 import com.gmail.trair8.repository.TaxiParkRepository;
 import com.gmail.trair8.service.TaxiParkService;
-import org.apache.log4j.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 import java.util.Scanner;
@@ -14,14 +15,10 @@ import java.util.regex.Pattern;
 
 public class Runner {
 
-    private static final Logger logger = Logger.getLogger(Runner.class);
-
-
-
+    private static final Logger logger = LogManager.getLogger(Runner.class);
 
     public static void main(String[] args) {
 
-        logger.setLevel(Level.INFO);
         TaxiPark taxiPark = new TaxiPark();
         TaxiParkRepository taxiParkRepository = new TaxiParkRepository();
         taxiPark.setCars(taxiParkRepository.findAll());
@@ -54,7 +51,6 @@ public class Runner {
 
     private static void print(List<Car> cars){
         for (Car car: cars) {
-            //System.out.println(car);
             logger.info(car);
         }
     }
