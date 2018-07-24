@@ -1,214 +1,31 @@
-2018-07-24T05:44:27,267 [ERROR] (TaxiParkRepository.java:37) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:25) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:44:27,267 [ERROR] (TaxiParkRepository.java:37) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:25) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:47:30,843 [ERROR] (TaxiParkRepository.java:37) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:25) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:47:30,843 [ERROR] (TaxiParkRepository.java:37) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:25) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:51:25,283 [ERROR] (TaxiParkRepository.java:38) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:26) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:51:25,301 [INFO ] (TaxiParkRepository.java:39) - FileNotFoundException
-2018-07-24T05:53:01,268 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:53:01,288 [INFO ] (TaxiParkRepository.java:37) - FileNotFoundException
-2018-07-24T05:54:24,898 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:54:24,919 [INFO ] (TaxiParkRepository.java:37) - FileNotFoundException!!!!!!1!!!
-2018-07-24T05:56:55,382 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:56:55,401 [INFO ] (TaxiParkRepository.java:37) - FileNotFoundException!!!!!!1!!!
-2018-07-24T05:58:11,527 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:58:11,543 [INFO ] (TaxiParkRepository.java:37) - FileNotFoundException!!!!!!1!!!
-2018-07-24T05:59:13,147 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T05:59:13,164 [INFO ] (TaxiParkRepository.java:37) - FileNotFoundException!!!!!!1!!!
-2018-07-24T06:03:52,176 [ERROR] (TaxiParkRepository.java:35) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
+2018-07-24T09:56:26,006 [ERROR] (TaxiParkRepository.java:35) - File not Found
+java.io.FileNotFoundException: casrs.txt (Не удается найти указанный файл)
 	at java.io.FileInputStream.open0(Native Method) ~[?:?]
 	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
 	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
 	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:23) [TaxiPark/:?]
 	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:11:12,753 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
+2018-07-24T10:01:29,746 [DEBUG] (TaxiParkService.java:62) - sum = 3000
+2018-07-24T10:01:29,748 [DEBUG] (TaxiParkService.java:62) - sum = 9000
+2018-07-24T10:01:29,751 [DEBUG] (TaxiParkService.java:62) - sum = 12500
+2018-07-24T10:01:29,751 [DEBUG] (TaxiParkService.java:62) - sum = 18500
+2018-07-24T10:01:29,752 [DEBUG] (TaxiParkService.java:62) - sum = 22000
+2018-07-24T10:01:50,860 [ERROR] (TaxiParkRepository.java:35) - File not Found
+java.io.FileNotFoundException: cadsrs.txt (Не удается найти указанный файл)
 	at java.io.FileInputStream.open0(Native Method) ~[?:?]
 	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
 	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
+	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:23) [TaxiPark/:?]
 	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:11:32,596 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
+2018-07-24T15:07:59,629 [ERROR] (TaxiParkRepository.java:35) - File not Found
+java.io.FileNotFoundException: cadsrs.txt (Не удается найти указанный файл)
 	at java.io.FileInputStream.open0(Native Method) ~[?:?]
 	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
 	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
+	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:23) [TaxiPark/:?]
 	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:11:44,430 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:11:44,430 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:13:05,857 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:13:05,857 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:13:32,343 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:13:32,343 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:13:50,223 [ERROR] (TaxiParkRepository.java:36) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:24) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:13:50,238 [INFO ] (TaxiParkRepository.java:39) - FileNotFoundException!!!!!!1!!!
-2018-07-24T06:17:24,883 [ERROR] (TaxiParkRepository.java:38) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:26) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:17:24,902 [INFO ] (TaxiParkRepository.java:42) - FileNotFoundException!!!!!!1!!!
-2018-07-24T06:17:34,671 [ERROR] (TaxiParkRepository.java:38) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:26) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:17:34,694 [INFO ] (TaxiParkRepository.java:42) - FileNotFoundException!!!!!!1!!!
-2018-07-24T06:18:05,296 [ERROR] (TaxiParkRepository.java:38) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:26) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:18:05,318 [INFO ] (TaxiParkRepository.java:42) - FileNotFoundException!!!!!!1!!!
-2018-07-24T06:21:19,504 [ERROR] (TaxiParkRepository.java:39) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:27) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:21:19,504 [ERROR] (TaxiParkRepository.java:39) - File not Found
-java.io.FileNotFoundException: ars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:27) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:23:14,764 [DEBUG] (TaxiParkService.java:62) - sum = 3000
-2018-07-24T06:23:14,765 [DEBUG] (TaxiParkService.java:62) - sum = 9000
-2018-07-24T06:23:14,765 [DEBUG] (TaxiParkService.java:62) - sum = 12500
-2018-07-24T06:23:14,765 [DEBUG] (TaxiParkService.java:62) - sum = 18500
-2018-07-24T06:23:14,765 [DEBUG] (TaxiParkService.java:62) - sum = 22000
-2018-07-24T06:24:41,519 [DEBUG] (TaxiParkService.java:62) - sum = 3000
-2018-07-24T06:24:41,520 [DEBUG] (TaxiParkService.java:62) - sum = 9000
-2018-07-24T06:24:41,520 [DEBUG] (TaxiParkService.java:62) - sum = 12500
-2018-07-24T06:24:41,521 [DEBUG] (TaxiParkService.java:62) - sum = 18500
-2018-07-24T06:24:41,521 [DEBUG] (TaxiParkService.java:62) - sum = 22000
-2018-07-24T06:25:56,231 [DEBUG] (TaxiParkService.java:62) - sum = 3000
-2018-07-24T06:25:56,231 [DEBUG] (TaxiParkService.java:62) - sum = 9000
-2018-07-24T06:25:56,232 [DEBUG] (TaxiParkService.java:62) - sum = 12500
-2018-07-24T06:25:56,232 [DEBUG] (TaxiParkService.java:62) - sum = 18500
-2018-07-24T06:25:56,233 [DEBUG] (TaxiParkService.java:62) - sum = 22000
-2018-07-24T06:26:21,436 [ERROR] (TaxiParkRepository.java:37) - File not Found
-java.io.FileNotFoundException: csars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:25) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
-2018-07-24T06:26:21,436 [ERROR] (TaxiParkRepository.java:37) - File not Found
-java.io.FileNotFoundException: csars.txt (Не удается найти указанный файл)
-	at java.io.FileInputStream.open0(Native Method) ~[?:?]
-	at java.io.FileInputStream.open(FileInputStream.java:220) ~[?:?]
-	at java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
-	at com.gmail.trair8.repository.TaxiParkRepository.findAll(TaxiParkRepository.java:25) [TaxiPark/:?]
-	at com.gmail.trair8.runner.Runner.main(Runner.java:24) [TaxiPark/:?]
+2018-07-24T15:08:44,447 [DEBUG] (TaxiParkService.java:62) - sum = 3000
+2018-07-24T15:08:44,448 [DEBUG] (TaxiParkService.java:62) - sum = 9000
+2018-07-24T15:08:44,449 [DEBUG] (TaxiParkService.java:62) - sum = 12500
+2018-07-24T15:08:44,450 [DEBUG] (TaxiParkService.java:62) - sum = 18500
+2018-07-24T15:08:44,450 [DEBUG] (TaxiParkService.java:62) - sum = 22000

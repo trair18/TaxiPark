@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 
 public class Runner {
 
-    private static final Logger logger = LogManager.getLogger(Runner.class);
+    private static final Logger LOGGER = LogManager.getLogger(Runner.class);
 
     public static void main(String[] args) {
 
@@ -41,9 +41,9 @@ public class Runner {
                 int j = Integer.parseInt(m.group());
                 print(TaxiParkService.search(i, j, taxiPark));
             }else if(s.equals("getCost()")){
-                logger.info(TaxiParkService.getCost(taxiPark));
+                LOGGER.info(TaxiParkService.getCost(taxiPark));
             } else {
-                logger.info("try again");
+                LOGGER.info("try again");
             }
         }
         scanner.close();
@@ -51,7 +51,7 @@ public class Runner {
 
     private static void print(List<Car> cars){
         for (Car car: cars) {
-            logger.info(car);
+            LOGGER.info(car);
         }
     }
 }

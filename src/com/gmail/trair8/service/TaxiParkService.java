@@ -11,7 +11,7 @@ import java.util.Comparator;
 
 public class TaxiParkService {
 
-    private static final Logger logger = LogManager.getLogger(TaxiParkService.class);
+    private static final Logger LOGGER = LogManager.getLogger(TaxiParkService.class);
 
     /**
      * Sort park cars by fuel consumption
@@ -59,7 +59,7 @@ public class TaxiParkService {
         int sum = 0;
         for (Car car: taxiPark.getCars()) {
             sum += car.getPrice();
-            logger.debug("sum = " + sum);
+            LOGGER.debug("sum = " + sum);
         }
         return sum;
     }
