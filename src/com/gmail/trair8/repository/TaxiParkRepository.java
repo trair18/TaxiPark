@@ -2,6 +2,7 @@ package com.gmail.trair8.repository;
 
 import com.gmail.trair8.factory.FactoryMethod;
 import com.gmail.trair8.model.Car;
+import com.gmail.trair8.runner.Runner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -14,7 +15,8 @@ import java.util.List;
 
 public class TaxiParkRepository {
 
-    private static final Logger logger = LogManager.getLogger(TaxiParkRepository.class);
+    private static final Logger LOGGER_ERROR = LogManager.getLogger(TaxiParkRepository.class);
+    private static final Logger LOGGER_INFO = LogManager.getLogger(Runner.class);
 
     public List<Car> findAll() {
         List<Car> cars = new ArrayList<Car>();
@@ -24,7 +26,6 @@ public class TaxiParkRepository {
             byte[] a = new byte[fileInputStream.available()];
             fileInputStream.read(a, 0, fileInputStream.available());
             String p = new String(a);
-            logger.debug(p);
             String[] w = p.split("\n");
             for (String q: w) {
                 String[] s = q.split("(, )|($)");
@@ -33,9 +34,11 @@ public class TaxiParkRepository {
             }
             fileInputStream.close();
         } catch (FileNotFoundException ex) {
-            logger.error("File not Found", ex);
+            LOGGER_ERROR.error("File not Found", ex);
+            LOGGER_INFO.info("FileNotFoundException!");
         } catch (IOException ex) {
-            logger.error("IOException", ex);
+            LOGGER_ERROR.error("IOException", ex);
+            LOGGER_INFO.info("IOException!");
         }
         return cars;
     }

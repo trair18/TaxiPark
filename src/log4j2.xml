@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration status="WARN">
     <appenders>
-        <File name="FILE" fileName="logs/debug.log">
+        <File name="FILE" fileName="logs/debugError.log">
             <PatternLayout pattern="%d{ISO8601} [%-5p] (%F:%L) - %m%n"/>
         </File>
         <Console name="STDOUT" target="SYSTEM_OUT">
@@ -9,8 +9,11 @@
         </Console>
     </appenders>
     <loggers>
-        <Logger name="com.gmail.trair8.runner" level="info">
+        <Logger name="com.gmail.trair8.runner" level="info" additivity="false">
             <appender-ref ref="STDOUT"/>
+        </Logger>
+        <Logger name="com.gmail.trair8.repository.TaxiParkRepository" level="error">
+            <appender-ref ref="FILE"/>
         </Logger>
         <root level="debug">
             <appender-ref ref="FILE"/>
